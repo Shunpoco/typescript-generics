@@ -79,3 +79,5 @@ class MockLogoutService implements LogoutService {
 const logoutService = new MockLogoutService();
 
 logoutService.logout('hoge');
+
+logoutService.logout(hoge);
